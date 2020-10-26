@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 52E5A305
+/// @DnDArgument : "soundid" "snd_Click"
+/// @DnDSaveInfo : "soundid" "snd_Click"
+audio_play_sound(snd_Click, 0, 0);
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 54B53760
@@ -16,8 +23,8 @@ if(go == false)
 	/// @DnDVersion : 1
 	/// @DnDHash : 463F500F
 	/// @DnDParent : 54B53760
-	/// @DnDArgument : "speed" "3"
-	speed = 3;
+	/// @DnDArgument : "speed" "spd"
+	speed = spd;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

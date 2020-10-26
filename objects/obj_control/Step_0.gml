@@ -37,6 +37,14 @@ if(gameover == true)
 	l7CC6F463_0 = keyboard_check_pressed(vk_anykey);
 	if (l7CC6F463_0)
 	{
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 1B300C99
+		/// @DnDParent : 7CC6F463
+		/// @DnDArgument : "soundid" "snd_PowerUp"
+		/// @DnDSaveInfo : "soundid" "snd_PowerUp"
+		audio_play_sound(snd_PowerUp, 0, 0);
+	
 		/// @DnDAction : YoYo Games.Common.Set_Global
 		/// @DnDVersion : 1
 		/// @DnDHash : 37F18423
